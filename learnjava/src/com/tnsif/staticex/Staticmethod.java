@@ -7,7 +7,10 @@ public class Staticmethod {
 	
 	static void change() {
 		collegename="cvr";
-		System.out.println(collegename);
+	}
+	
+	void display(String name,int rollno) {
+		System.out.println(name+" "+rollno+" "+collegename);
 	}
 			
 			
