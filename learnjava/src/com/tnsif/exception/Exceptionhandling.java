@@ -7,7 +7,7 @@ public class Exceptionhandling {
 		int a = 55/d;
 	}
 	catch(ArithmeticException e){
-		System.out.println(e);
+		System.out.println(e.getMessage());
 	}
 
 }
