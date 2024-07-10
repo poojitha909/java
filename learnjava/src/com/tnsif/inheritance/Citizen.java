@@ -32,7 +32,7 @@ public class Citizen {
 	public void setPhone(long phone) {
 		this.phone = phone;
 	}
-	@Override
+	
 	public String toString() {
 		return "Citizen [name=" + name + ", addhar=" + addhar + ", phone=" + phone + "]";
 	}
